@@ -1,3 +1,14 @@
 # AI Programming with Python Project
 
-Project code for Udacity's AI Programming with Python Nanodegree program. In this project, students first develop code for an image classifier built with PyTorch, then convert it into a command line application.
+Image Classifier Project
+
+Using PyTorch and transfer learning (e.g., VGG16), the model classifies flower images into categories with high accuracy. The project includes both a Jupyter notebook for development and command line scripts for training and prediction.
+
+Features
+Pretrained model with custom classifier
+Data augmentation & normalization
+GPU training support
+Save/load model checkpoints
+Command-line tools:
+train.py for training and saving model
+predict.py for predicting image classes
